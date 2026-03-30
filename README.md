@@ -1,31 +1,38 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:ff0000&height=5" width="100%"/>
-</div>
+<!--
+  PrinceKChaudhari — GitHub Profile
+  Editorial. Minimal. Different.
+-->
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=2" width="100%"/>
+
+<br/>
 <br/>
 
 <div align="center">
 
-```
-██████╗ ██╗   ██╗██╗██╗     ██████╗     ██╗  ██╗██╗   ██╗
-██╔══██╗██║   ██║██║██║     ██╔══██╗    ██║ ██╔╝██║   ██║
-██████╔╝██║   ██║██║██║     ██║  ██║    █████╔╝ ██║   ██║
-██╔══██╗██║   ██║██║██║     ██║  ██║    ██╔═██╗ ╚██╗ ██╔╝
-██████╔╝╚██████╔╝██║███████╗██████╔╝    ██║  ██╗ ╚████╔╝
-╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═════╝     ╚═╝  ╚═╝  ╚═══╝
-```
+<sub>DEVELOPER · INDIA · EST. 2024</sub>
 
-<img src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&size=14&duration=1500&pause=800&color=FF0000&center=true&width=600&lines=Distributed.+Fault-tolerant.+Merciless.;SET.+GET.+REPLICATE.+SURVIVE.;Built+in+Elixir.+Powered+by+the+BEAM.;What+WhatsApp+runs+on.+Now+in+your+hands."/>
+<br/>
+<br/>
+
+# Prince K Chaudhari
 
 <br/>
 
-![](https://img.shields.io/badge/ELIXIR-1.14+-FF0000?style=flat-square&labelColor=000000)
-![](https://img.shields.io/badge/ERLANG_OTP-25+-FF0000?style=flat-square&labelColor=000000)
-![](https://img.shields.io/badge/LINES-300+-FF0000?style=flat-square&labelColor=000000)
-![](https://img.shields.io/badge/STATUS-RUNNING-FF0000?style=flat-square&labelColor=000000)
+<sub>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+B U I L D I N G &nbsp;&nbsp; I N &nbsp;&nbsp; P U B L I C
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</sub>
+
+<br/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=18&duration=3000&pause=1500&color=000000&center=true&width=600&lines=In+a+world+full+of+users%2C+I+chose+to+be+a+creator.;Not+the+best+coder.+Yet.;Building+from+a+phone.+No+excuses.;The+journey+is+the+flex."/>
 
 </div>
 
+<br/>
 <br/>
 
 ---
@@ -33,59 +40,43 @@
 <br/>
 
 <div align="center">
-
-> # *"Crash. Restart. Keep running.*
-> # *That's not a bug.*
-> # *That's Erlang OTP."*
-
+<sub>§ 001</sub>
 </div>
 
 <br/>
 
----
-
-<br/>
-
-<table>
+<table border="0" align="center">
 <tr>
-<td width="50%" valign="top">
+<td align="center" width="200px">
 
-### What it does.
-
-```
-SET  "user:1"  →  "Prince"   ✓
-GET  "user:1"  →  "Prince"   ✓
-DEL  "user:1"  →  gone       ✓
-```
-
-A key-value store.  
-Simple interface.  
-Distributed underneath.  
-**Survives node crashes.**
-
-One node dies?  
-**The others keep running.**  
-Your data stays alive.
+<sub>CURRENTLY</sub>
+<br/><br/>
+Learning Python<br/>
+Exploring AI & ML<br/>
+Building in public<br/>
+Vibe coding w/ Cursor
 
 </td>
-<td width="50%" valign="top">
+<td width="40px"></td>
+<td align="center" width="200px">
 
-### Why it's brutal.
+<sub>ALWAYS</sub>
+<br/><br/>
+Curious<br/>
+Shipping<br/>
+Improving<br/>
+Caffeinated ☕
 
-```
-Node 1  ──────────────┐
-Node 2  ──────────────┤  ALL IN SYNC
-Node 3  ──────────────┘
+</td>
+<td width="40px"></td>
+<td align="center" width="200px">
 
-Node 1 crashes?
-
-Node 2  ──────────────┐
-Node 3  ──────────────┘  STILL RUNNING
-```
-
-**No single point of failure.**  
-**No data loss.**  
-**No mercy for downtime.**
+<sub>NEVER</sub>
+<br/><br/>
+Giving up<br/>
+Waiting for a PC<br/>
+Making excuses<br/>
+Stopping
 
 </td>
 </tr>
@@ -97,121 +88,27 @@ Node 3  ──────────────┘  STILL RUNNING
 
 <br/>
 
-## `ps aux` — Components
-
-```
-  PID   COMPONENT               DESCRIPTION
-  ────────────────────────────────────────────────────────────
-  001   KVStore.Store           GenServer — in-memory hashmap
-  002   KVStore.Router          HTTP API  — GET/POST/DELETE
-  003   KVStore.Replicator      Erlang RPC — sync to peers
-  004   KVStore.Application     OTP Supervisor — never dies
-  ────────────────────────────────────────────────────────────
-        Supervised by OTP. Crash one. Rest survive.
-```
+<div align="center">
+<sub>§ 002 &nbsp;·&nbsp; ABOUT</sub>
+</div>
 
 <br/>
 
----
+```python
+# Who I am — no fluff, no fake skills
 
-<br/>
+name     = "Prince K Chaudhari"
+location = "India 🇮🇳"
+started  = "2024"
 
-## `curl` — API
+# What I actually know
+learning = ["Python", "Web Dev", "AI/ML"]
+tools    = ["Cursor", "Termux", "GitHub", "Claude AI"]
 
-<details>
-<summary><b>▶ &nbsp; Expand all endpoints</b></summary>
-
-<br/>
-
-```bash
-# SET
-curl -X POST http://localhost:4000/store/name \
-  -H "Content-Type: application/json" \
-  -d '{"value": "Prince"}'
-
-# GET
-curl http://localhost:4000/store/name
-# → {"key":"name","value":"Prince"}
-
-# DELETE
-curl -X DELETE http://localhost:4000/store/name
-
-# ALL KEYS
-curl http://localhost:4000/keys
-
-# STATS
-curl http://localhost:4000/stats
-
-# ADD PEER NODE
-curl -X POST http://localhost:4000/peers \
-  -H "Content-Type: application/json" \
-  -d '{"node": "kv@192.168.1.2"}'
-```
-
-</details>
-
-<br/>
-
----
-
-<br/>
-
-## `./run.sh` — Start
-
-```bash
-git clone https://github.com/PrinceKChaudhari/kv_store.git
-cd kv_store
-mix deps.get
-mix run --no-halt
-# → http://localhost:4000
-```
-
-> [!NOTE]
-> Works on Linux, macOS, and Termux (Android 📱)
-
-<br/>
-
----
-
-<br/>
-
-## `iex -S mix` — Shell
-
-```elixir
-KVStore.Store.set("name", "Prince")    # :ok
-KVStore.Store.get("name")              # "Prince"
-KVStore.Store.keys()                   # ["name"]
-KVStore.Store.stats()                  # %{keys: 1, ops: 2}
-KVStore.Store.flush()                  # :ok
-```
-
-<br/>
-
----
-
-<br/>
-
-## Architecture
-
-```
-  ┌─────────────────────────────────────────────────────┐
-  │                   HTTP CLIENT                       │
-  └────────────────────────┬────────────────────────────┘
-                           │
-                           ▼
-  ┌─────────────────────────────────────────────────────┐
-  │           Plug.Cowboy  +  KVStore.Router             │
-  └──────────────┬──────────────────────────────────────┘
-                 │
-       ┌─────────┴──────────┐
-       ▼                    ▼
-  ┌─────────┐        ┌─────────────────┐
-  │  Store  │        │   Replicator    │
-  │GenServer│        │  → Node 2 RPC   │
-  │         │        │  → Node 3 RPC   │
-  └─────────┘        └─────────────────┘
-       │
-  OTP Supervisor — crash & restart automatically
+# The unusual part
+setup    = "Phone only. No PC. Still shipping."
+approach = "Vibe code → break → fix → learn → repeat"
+goal     = "Build something people actually use."
 ```
 
 <br/>
@@ -221,24 +118,136 @@ KVStore.Store.flush()                  # :ok
 <br/>
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:ff0000&height=5" width="100%"/>
-
-<br/>
-
-```
-[✓] Store running
-[✓] Replicator running
-[✓] HTTP server running
-[✓] Ready to take everything you throw at it.
-```
+<sub>§ 003 &nbsp;·&nbsp; NUMBERS</sub>
+</div>
 
 <br/>
 
-<sub>Built by <a href="https://github.com/PrinceKChaudhari"><b>PrinceKChaudhari</b></a> · MIT · Elixir + OTP</sub>
+<div align="center">
 
-<br/>
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=PrinceKChaudhari&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&icon_color=000000&text_color=333333&count_private=true"/>
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=PrinceKChaudhari.kv_store&left_color=000000&right_color=ff0000)
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrinceKChaudhari&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&text_color=333333"/>
 
 </div>
+
+<div align="center">
+
+[![Streak](https://streak-stats.demolab.com?user=PrinceKChaudhari&theme=default&hide_border=true&background=ffffff&ring=000000&fire=000000&currStreakLabel=000000&sideLabels=000000&dates=666666)](https://git.io/streak-stats)
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+<sub>§ 004 &nbsp;·&nbsp; WORK</sub>
+</div>
+
+<br/>
+
+<div align="center">
+
+[![AI Sentiment Analyzer](https://github-readme-stats.vercel.app/api/pin/?username=PrinceKChaudhari&repo=AI-Sentiment-Analyzer&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&icon_color=000000&text_color=333333)](https://github.com/PrinceKChaudhari/AI-Sentiment-Analyzer)
+&nbsp;&nbsp;
+[![kv_store](https://github-readme-stats.vercel.app/api/pin/?username=PrinceKChaudhari&repo=kv_store&theme=default&hide_border=true&bg_color=ffffff&title_color=000000&icon_color=000000&text_color=333333)](https://github.com/PrinceKChaudhari/kv_store)
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+<sub>§ 005 &nbsp;·&nbsp; ACTIVITY</sub>
+</div>
+
+<br/>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PrinceKChaudhari/PrinceKChaudhari/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PrinceKChaudhari/PrinceKChaudhari/output/github-contribution-grid-snake.svg"/>
+  <img alt="snake" src="https://raw.githubusercontent.com/PrinceKChaudhari/PrinceKChaudhari/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+<sub>§ 006 &nbsp;·&nbsp; LOG</sub>
+</div>
+
+<br/>
+
+```
+Dec 2024 ··· Created GitHub account.
+Jan 2025 ··· Started learning to code.
+Mar 2026 ··· Built full GitHub profile. From a phone.
+Mar 2026 ··· Pushed AI project. Then Elixir distributed system.
+     ··· ··· Writing the next line of this story.
+```
+
+<br/>
+
+<details>
+<summary align="center"><sub>WHAT'S NEXT →</sub></summary>
+
+<br/>
+
+```
+○  Get a PC
+○  Build something 100 people use
+○  First open source contribution
+○  Learn DSA seriously
+○  Ship a real AI project
+○  Make this log worth reading
+```
+
+*No fake progress bars. Real goals. Crossed when done.*
+
+</details>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+<br/>
+
+<sub>
+
+*"The expert in anything*  
+*was once a beginner*  
+*who refused to quit."*
+
+</sub>
+
+<br/>
+<br/>
+
+<sub>BUILT FROM A PHONE 📱 &nbsp;·&nbsp; INDIA 🇮🇳 &nbsp;·&nbsp; 2024—PRESENT</sub>
+
+<br/>
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=PrinceKChaudhari.PrinceKChaudhari&left_color=000000&right_color=333333&left_text=visitors)
+
+<br/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=2" width="100%"/>
