@@ -1,37 +1,42 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,100:4B0082&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:ff0000&height=5" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
 
-<table border="0">
-<tr>
-<td align="left"><sub>● ● ●</sub></td>
-<td align="center"><sub>~ / kv_store — iex — distributed@princekchaudhari</sub></td>
-<td align="right"><sub>⌘</sub></td>
-</tr>
-</table>
-
 ```
-██╗  ██╗██╗   ██╗    ███████╗████████╗ ██████╗ ██████╗ ███████╗
-██║ ██╔╝██║   ██║    ██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗██╔════╝
-█████╔╝ ██║   ██║    ███████╗   ██║   ██║   ██║██████╔╝█████╗
-██╔═██╗ ╚██╗ ██╔╝    ╚════██║   ██║   ██║   ██║██╔══██╗██╔══╝
-██║  ██╗ ╚████╔╝     ███████║   ██║   ╚██████╔╝██║  ██║███████╗
-╚═╝  ╚═╝  ╚═══╝      ╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝
+██████╗ ██╗   ██╗██╗██╗     ██████╗     ██╗  ██╗██╗   ██╗
+██╔══██╗██║   ██║██║██║     ██╔══██╗    ██║ ██╔╝██║   ██║
+██████╔╝██║   ██║██║██║     ██║  ██║    █████╔╝ ██║   ██║
+██╔══██╗██║   ██║██║██║     ██║  ██║    ██╔═██╗ ╚██╗ ██╔╝
+██████╔╝╚██████╔╝██║███████╗██████╔╝    ██║  ██╗ ╚████╔╝
+╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═════╝     ╚═╝  ╚═╝  ╚═══╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&size=14&duration=2000&pause=800&color=9B59B6&center=true&width=600&lines=Distributed.+Fault-tolerant.+Built+in+Elixir.;What+WhatsApp+used+to+handle+2M+connections.;SET.+GET.+REPLICATE.+SURVIVE."/>
+<img src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&size=14&duration=1500&pause=800&color=FF0000&center=true&width=600&lines=Distributed.+Fault-tolerant.+Merciless.;SET.+GET.+REPLICATE.+SURVIVE.;Built+in+Elixir.+Powered+by+the+BEAM.;What+WhatsApp+runs+on.+Now+in+your+hands."/>
 
 <br/>
 
-![Elixir](https://img.shields.io/badge/Elixir-1.14+-4B0082?style=flat-square&logo=elixir&logoColor=white&labelColor=0d1117)
-![Erlang OTP](https://img.shields.io/badge/Erlang_OTP-25+-A90533?style=flat-square&labelColor=0d1117)
-![License](https://img.shields.io/badge/License-MIT-9B59B6?style=flat-square&labelColor=0d1117)
-![Status](https://img.shields.io/badge/Status-Active-00ff41?style=flat-square&labelColor=0d1117)
-![Built By](https://img.shields.io/badge/Built_by-PrinceKChaudhari-4B0082?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/ELIXIR-1.14+-FF0000?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/ERLANG_OTP-25+-FF0000?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/LINES-300+-FF0000?style=flat-square&labelColor=000000)
+![](https://img.shields.io/badge/STATUS-RUNNING-FF0000?style=flat-square&labelColor=000000)
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+> # *"Crash. Restart. Keep running.*
+> # *That's not a bug.*
+> # *That's Erlang OTP."*
 
 </div>
 
@@ -47,37 +52,40 @@
 
 ### What it does.
 
-A **distributed key-value store** built in Elixir.
-
-Think Redis — but you built it yourself.  
-Think DynamoDB — but in 300 lines of code.
-
 ```
-SET  "user:1" → "Prince"
-GET  "user:1" → "Prince"
-DEL  "user:1" → gone
+SET  "user:1"  →  "Prince"   ✓
+GET  "user:1"  →  "Prince"   ✓
+DEL  "user:1"  →  gone       ✓
 ```
 
+A key-value store.  
 Simple interface.  
 Distributed underneath.  
-Fault-tolerant by design.
+**Survives node crashes.**
+
+One node dies?  
+**The others keep running.**  
+Your data stays alive.
 
 </td>
 <td width="50%" valign="top">
 
-### Why Elixir.
-
-Elixir runs on the **Erlang VM (BEAM)** —  
-the same VM that powers:
+### Why it's brutal.
 
 ```
-WhatsApp     → 2M concurrent connections
-Discord      → millions of users
-WhatsApp     → 99.9999% uptime
+Node 1  ──────────────┐
+Node 2  ──────────────┤  ALL IN SYNC
+Node 3  ──────────────┘
+
+Node 1 crashes?
+
+Node 2  ──────────────┐
+Node 3  ──────────────┘  STILL RUNNING
 ```
 
-Not chosen for hype.  
-Chosen because it's **the right tool.**
+**No single point of failure.**  
+**No data loss.**  
+**No mercy for downtime.**
 
 </td>
 </tr>
@@ -89,17 +97,17 @@ Chosen because it's **the right tool.**
 
 <br/>
 
-## `mix describe`
+## `ps aux` — Components
 
 ```
-  COMPONENT         DESCRIPTION                           TECH
-  ───────────────────────────────────────────────────────────────
-  KVStore.Store     In-memory key-value GenServer         Elixir
-  KVStore.Router    REST HTTP API (GET/POST/DELETE)       Plug + Cowboy
-  KVStore.Replicator Replicates writes to peer nodes     Erlang RPC
-  KVStore.Application Supervisor tree — crash & restart  OTP
-  ───────────────────────────────────────────────────────────────
-  Total             Distributed KV store with HTTP API
+  PID   COMPONENT               DESCRIPTION
+  ────────────────────────────────────────────────────────────
+  001   KVStore.Store           GenServer — in-memory hashmap
+  002   KVStore.Router          HTTP API  — GET/POST/DELETE
+  003   KVStore.Replicator      Erlang RPC — sync to peers
+  004   KVStore.Application     OTP Supervisor — never dies
+  ────────────────────────────────────────────────────────────
+        Supervised by OTP. Crash one. Rest survive.
 ```
 
 <br/>
@@ -108,50 +116,36 @@ Chosen because it's **the right tool.**
 
 <br/>
 
-## `curl localhost:4000` — API Reference
+## `curl` — API
 
 <details>
-<summary><b>Click to expand all endpoints</b></summary>
+<summary><b>▶ &nbsp; Expand all endpoints</b></summary>
 
 <br/>
 
 ```bash
-# ── READ ─────────────────────────────────────────────────────
+# SET
+curl -X POST http://localhost:4000/store/name \
+  -H "Content-Type: application/json" \
+  -d '{"value": "Prince"}'
 
-# Get a value
-curl http://localhost:4000/store/mykey
+# GET
+curl http://localhost:4000/store/name
+# → {"key":"name","value":"Prince"}
 
-# List all keys
+# DELETE
+curl -X DELETE http://localhost:4000/store/name
+
+# ALL KEYS
 curl http://localhost:4000/keys
 
-# Get everything
-curl http://localhost:4000/store
-
-# Stats
+# STATS
 curl http://localhost:4000/stats
 
-# ── WRITE ────────────────────────────────────────────────────
-
-# Set a value
-curl -X POST http://localhost:4000/store/mykey \
-  -H "Content-Type: application/json" \
-  -d '{"value": "hello world"}'
-
-# Delete a key
-curl -X DELETE http://localhost:4000/store/mykey
-
-# Flush everything
-curl -X DELETE http://localhost:4000/store
-
-# ── CLUSTER ──────────────────────────────────────────────────
-
-# Add a peer node for replication
+# ADD PEER NODE
 curl -X POST http://localhost:4000/peers \
   -H "Content-Type: application/json" \
   -d '{"node": "kv@192.168.1.2"}'
-
-# List connected peers
-curl http://localhost:4000/peers
 ```
 
 </details>
@@ -162,30 +156,18 @@ curl http://localhost:4000/peers
 
 <br/>
 
-## `mix run` — Getting Started
+## `./run.sh` — Start
 
 ```bash
-# ── Install Elixir ────────────────────────────────────────────
-# Ubuntu/Debian
-sudo apt install elixir
-
-# Termux (yes, phone works 📱)
-pkg install elixir
-
-# ── Clone & Run ───────────────────────────────────────────────
 git clone https://github.com/PrinceKChaudhari/kv_store.git
 cd kv_store
 mix deps.get
 mix run --no-halt
-
-# ── Server is live ────────────────────────────────────────────
 # → http://localhost:4000
 ```
 
-<br/>
-
 > [!NOTE]
-> Runs on Linux, macOS, Windows, and even **Termux on Android.**
+> Works on Linux, macOS, and Termux (Android 📱)
 
 <br/>
 
@@ -193,20 +175,14 @@ mix run --no-halt
 
 <br/>
 
-## `iex -S mix` — Interactive Shell
+## `iex -S mix` — Shell
 
 ```elixir
-# Start interactive Elixir shell
-iex -S mix
-
-# Use the store directly
-KVStore.Store.set("name", "Prince")       # → :ok
-KVStore.Store.get("name")                 # → "Prince"
-KVStore.Store.set("lang", "Elixir")       # → :ok
-KVStore.Store.keys()                      # → ["name", "lang"]
-KVStore.Store.stats()                     # → %{keys: 2, ops: 4, ...}
-KVStore.Store.delete("name")              # → :ok
-KVStore.Store.flush()                     # → :ok
+KVStore.Store.set("name", "Prince")    # :ok
+KVStore.Store.get("name")              # "Prince"
+KVStore.Store.keys()                   # ["name"]
+KVStore.Store.stats()                  # %{keys: 1, ops: 2}
+KVStore.Store.flush()                  # :ok
 ```
 
 <br/>
@@ -215,28 +191,27 @@ KVStore.Store.flush()                     # → :ok
 
 <br/>
 
-## `Architecture`
+## Architecture
 
 ```
-  HTTP Request
+  ┌─────────────────────────────────────────────────────┐
+  │                   HTTP CLIENT                       │
+  └────────────────────────┬────────────────────────────┘
+                           │
+                           ▼
+  ┌─────────────────────────────────────────────────────┐
+  │           Plug.Cowboy  +  KVStore.Router             │
+  └──────────────┬──────────────────────────────────────┘
+                 │
+       ┌─────────┴──────────┐
+       ▼                    ▼
+  ┌─────────┐        ┌─────────────────┐
+  │  Store  │        │   Replicator    │
+  │GenServer│        │  → Node 2 RPC   │
+  │         │        │  → Node 3 RPC   │
+  └─────────┘        └─────────────────┘
        │
-       ▼
-  ┌─────────────────┐
-  │  Plug.Cowboy    │  ← HTTP server
-  │  KVStore.Router │  ← routes GET/POST/DELETE
-  └────────┬────────┘
-           │
-           ▼
-  ┌─────────────────┐        ┌──────────────────┐
-  │  KVStore.Store  │        │KVStore.Replicator│
-  │  (GenServer)    │───────▶│  (GenServer)     │
-  │  in-memory map  │        │  peer nodes RPC  │
-  └─────────────────┘        └────────┬─────────┘
-                                      │
-                              ┌───────┴──────┐
-                              │              │
-                         Node 2          Node 3
-                         (peer)          (peer)
+  OTP Supervisor — crash & restart automatically
 ```
 
 <br/>
@@ -247,21 +222,23 @@ KVStore.Store.flush()                     # → :ok
 
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:ff0000&height=5" width="100%"/>
+
+<br/>
+
 ```
-iex(distributed@princekchaudhari)> KVStore.Store.set("legend", "true")
-:ok
+[✓] Store running
+[✓] Replicator running
+[✓] HTTP server running
+[✓] Ready to take everything you throw at it.
 ```
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,100:4B0082&height=3" width="100%"/>
+<sub>Built by <a href="https://github.com/PrinceKChaudhari"><b>PrinceKChaudhari</b></a> · MIT · Elixir + OTP</sub>
 
 <br/>
 
-<sub>Built by <a href="https://github.com/PrinceKChaudhari"><b>PrinceKChaudhari</b></a> · MIT License · Elixir + OTP</sub>
-
-<br/>
-
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=PrinceKChaudhari.kv_store&left_color=0d1117&right_color=4B0082&left_text=visitors)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=PrinceKChaudhari.kv_store&left_color=000000&right_color=ff0000)
 
 </div>
